@@ -34,8 +34,5 @@ git clone https://github.com/apache/superset.git
 #CHANGE DIRECTORY
 cd superset
 
-#DOCKER COMPOSE 1
-docker-compose -f docker-compose-non-dev.yml pull
- 
-#DOCKER COMPOSE 2
-docker-compose -f docker-compose-non-dev.yml up
+#DOCKER COMPOSE 1 & 2
+docker-compose -f docker-compose-non-dev.yml pull && docker-compose -f docker-compose-non-dev.yml up
