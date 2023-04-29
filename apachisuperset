@@ -41,8 +41,7 @@ docker-compose -f docker-compose-non-dev.yml pull && docker-compose -f docker-co
 sudo apt update -y
 
 #run the command
-wget
-https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 #install chrome
 sudo apt install ./google-chrome-stable_current_amd64.deb
